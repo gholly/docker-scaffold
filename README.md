@@ -10,3 +10,7 @@
 
 3. 查看打包好的image
 `docker images`
+
+4. docker run scaffold #启动镜像
+5. docker exec -it container-id sh 或者 docker exec -it container-id sh #进入到容器中
+6. curl -i http://localhost:8080/hi
